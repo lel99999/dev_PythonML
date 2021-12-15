@@ -19,4 +19,8 @@ $lspci | grep -i nvidia
     import tensorflow as tf
     
     tf.__versions__
-  ```
+    ```
+  - To run in one Python command:
+    ```
+    $python -c "import tensorflow as tf;tf.__version__"
+    ```
